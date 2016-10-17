@@ -1,0 +1,37 @@
+{
+    "ponentes": [
+        {
+            "ponente": "21",
+            "nombre": "Onamilixam",
+            "apellido": "Rosas",
+            "silabas": "",
+            "biografia": "fdas",
+            "ponencia": {
+                "titulo": "",
+                "texto": "fasd"
+            }
+        },
+        {
+            "ponente_id": "12",
+            "nombre": "Maximiliano",
+            "apellido": "oviedo",
+            "silabas": "ma, xi, mi, lia, no",
+            "biografia": "fdas",
+            "ponencia": {
+                "titulo": "",
+                "texto": "fasd"
+            }
+        },
+        {
+            "id": "ponente_34",
+            "nombre": "",
+            "apellido": "",
+            "silabas": "",
+            "biografia": "fdas",
+            "ponencia": {
+                "titulo": "",
+                "texto": "fasd"
+            }
+        }
+    ]
+}

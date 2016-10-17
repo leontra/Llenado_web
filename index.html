@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+  <title>Llenado Escrituras Digitales</title>
+  <style type="text/css" media="all">
+	@import "css/info.css";
+	@import "css/main.css";
+	@import "css/widgEditor.css";
+  </style>  
+  
+</head>
+
+<body>
+    <div id="objetosContainer">
+        <form id="llenadoForm">
+            <fieldset id="llenadoDefault">
+                <p class="seccion-titulo">Agregar nuevo elemento</p>
+            <section>
+                <label> Id
+                    <input type="text" id="iId" name="id">
+                </label>
+            </section>
+            <section>
+                <label> Nombre
+                    <input type="text" id="iNombre" name="nombre">
+                </label>
+            </section>
+            <section>
+                <label> Apellido
+                    <input type="text" id="iApellido" name="apellido">
+                </label>
+            </section>
+            <section>
+                <label> Sílabas
+                    <input type="text" id="iSilabas" name="silabas">
+                </label>
+            </section>
+            <section>
+                <label for="iBiografia"> Biografía </label>
+                <textarea id="iBiografia" name="biografia" class="widgEditor"></textarea>            
+            </section>
+            <section>
+                <label> Título
+                    <input type="text" id="iTitulo" name="titulo">
+                </label>
+            </section>
+            <section>
+                <label for="iTexto"> Compendio</label>
+                <textarea id="iTexto" name="texto" class="widgEditor"></textarea>            
+            </section>
+            <section>
+                <label for="iAgregar">Agregar elemento</label>
+                <input type="checkbox" id="iAgregar" name="agregar" value="agregar">
+            </section>
+            </fieldset>
+            <div id="submitContainer">
+                    <button type="submit" class="btn" id="btnRegistro">Actualizar</button>
+            </div>
+        </form>
+    </div>                
+</body>
+</html>
+
+<script type="text/javascript" src="app/widgEditor.js" async></script>
+<script data-main="app/main" src="library/require.min.js"></script>
